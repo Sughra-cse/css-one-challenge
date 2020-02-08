@@ -6,32 +6,36 @@
 .container{
     font-size: 20px;
     font-family: 'Libre Franklin', sans-serif;
-    width:89%;
+    width:90%;
     margin: 0 auto;
     text-align:center;
 }
 /* section 1*/
 .section1{
-    color:hsla(0, 0%, 59%, 0.37);
-    padding: 10px;
+    color:rgba(150, 150, 150, 0.37);
 }
 .section1 svg {
-    margin-top: 40px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 .section1 h2 strong{
     color:black;
 }
 .section1 p{
     color:hsl(0, 0%, 7%);
+    font-size:0.9rem;
+}
+.error{
+    color:hsl(354, 100%, 66%);
+    font-size: 0.8rem;
 }
 /* section2 */
-.section2 {
+.section2{
     padding: 10px;
 }
 .section2 input{
     border: 2px solid hsl(223, 100%, 88%);
-    padding:10px 120px 15px 40px ;
+    padding:5px 60px 5px 10px ;
     border-radius: 35px 35px 35px 35px;
    }
    .section2 input:hover{
@@ -42,7 +46,7 @@
     padding: 10px;
 }
 .section3 input{
-    padding:15px 130px 15px 130px ;
+    padding:5px 85px 5px 85px ;
     border-radius: 35px 35px 35px 35px;
     background-color: hsl(223, 87%, 63%);
 color: white;
@@ -53,97 +57,99 @@ border-color: hsl(223, 100%, 88%)
     border-color: #900;
     background-color:whitesmoke;
   }
-  input:focus:invalid {
-    outline: none;
-  }
-input:empty{
-    border-color: hsl(223, 100%, 88%);
-}  */
-.error {
-    width  : 100%;
-    padding: 0;
-  
-    font-size: 80%;
-    color: white;
-    background-color: #900;
-    border-radius: 0 0 5px 5px;
-  
-    box-sizing: border-box;
-  }
 /* section4 */
+.section4{
+    margin-bottom: 40px;
+}
 .section4 img{
- padding: 10px 10px 15px 10px;
- margin:15px 10px 40px 10px;
- width: 350px;
- height:260px;
+ padding: 5px 10px 5px 10px;
+ margin:5px 10px 15px 10px;
+ width: 250px;
+ height:150px;
 }
 /*section5 */
+.section5{
+    margin-bottom: 20px;
+}
 .section5 button{
     border-radius: 50%;
-    padding: 8px;
+    padding: 5px;
     border-color:darkslategrey;
 cursor: pointer;
 }
 .section5 button img{
-    width: 40px;
-    height:40px;
-} 
+    width: 20px;
+    height:20px;
+}
 @media (min-width:700px){
     .container{
-        width:75%;
-        font-size: 1.7rem;
+        width:80%;
+        font-size: 1.2rem;
     }
     .section2 {
         float:left;
-        width:60%;
+        margin-left: 135px;
     }
     .section2 input{
-        padding:10px 120px 15px 40px ;       
+        padding:10px 80px 10px 20px ;       
     }
     .section3{
         float:left;
-        width:30%;
     }
     .section3 input{
-        padding:10px 30px 10px 10px ;   
+        padding:10px 30px 10px 15px ;   
  }
  .section4 img{
-     width: 550px;
-     height:360px;
-     margin-top:80px ;
-     margin-bottom :60px ;
+     width:450px;
+     height:300px;
+     margin-top:30px ;
+     margin-bottom :20px ;
     }
     .section5 button img{
-        width: 60px;
-        height:60px;
+        width: 35px;
+        height:35px;
     }
 }
-@media (min-width:1300px){
+@media (min-width:1200px){
     .container{
         width:80%;
-        font-size: 2.2rem;
+        font-size: 1.3rem;
         max-width: 1440px;
     }
-    .section1 svg {
-        margin-top: 60px;}
-        .section2 {
+    .section2{
+        padding: 0px;
+    }
+    .section3{
+        padding: 0px;
+        margin-left: 8px;
+    }
+    .section1 svg{
+        margin-top: 5px;
+        margin-bottom: 0px;
+    }  
+    .section2 {
             float:left;
-            margin-left: 75px;
+            margin-left:350px ;
+}
+.section3{
+    float:left;
 }
 .section2 input{
-    padding:30px 160px 35px 70px ;       
+    padding:10px 40px 15px 20px ;       
 }
 .section3 input{
-    padding:30px 40px 25px 25px ;   
+    padding:15px 20px 15px 10px ;   
 }
 .section4 img{
-    width: 900px;
-    height:400px;
-    margin-top:80px ;
-    margin-bottom :60px ;
+    width: 550px;
+    height:280px;
+   }
+   .section4{
+    margin-top:0px ;
+    margin-bottom :0px ;
    }
    .section5 button img{
-    width: 80px;
-    height:80px;
-}
+    width: 30px;
+    height:30px;
+   }
 }
