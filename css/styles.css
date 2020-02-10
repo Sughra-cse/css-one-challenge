@@ -35,7 +35,7 @@
 }
 .section2 input{
     border: 2px solid hsl(223, 100%, 88%);
-    padding:5px 60px 5px 10px ;
+    padding:5px 50px 5px 10px ;
     border-radius: 35px 35px 35px 35px;
    }
    .section2 input:hover{
@@ -46,7 +46,7 @@
     padding: 10px;
 }
 .section3 input{
-    padding:5px 85px 5px 85px ;
+    padding:5px 80px 5px 80px ;
     border-radius: 35px 35px 35px 35px;
     background-color: hsl(223, 87%, 63%);
 color: white;
@@ -59,17 +59,17 @@ border-color: hsl(223, 100%, 88%)
   }
 /* section4 */
 .section4{
-    margin-bottom: 40px;
+    margin-bottom: 35px;
 }
 .section4 img{
  padding: 5px 10px 5px 10px;
- margin:5px 10px 15px 10px;
+ margin:5px 10px 10px 10px;
  width: 250px;
  height:150px;
 }
 /*section5 */
 .section5{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 .section5 button{
     border-radius: 50%;
@@ -91,13 +91,13 @@ cursor: pointer;
         margin-left: 135px;
     }
     .section2 input{
-        padding:10px 80px 10px 20px ;       
+        padding:10px 85px 10px 20px ;       
     }
     .section3{
         float:left;
     }
     .section3 input{
-        padding:10px 30px 10px 15px ;   
+        padding:10px 40px 10px 15px ;   
  }
  .section4 img{
      width:450px;
@@ -135,7 +135,7 @@ cursor: pointer;
     float:left;
 }
 .section2 input{
-    padding:10px 40px 15px 20px ;       
+    padding:10px 40px 10px 20px ;       
 }
 .section3 input{
     padding:15px 20px 15px 10px ;   
@@ -147,6 +147,7 @@ cursor: pointer;
    .section4{
     margin-top:0px ;
     margin-bottom :0px ;
+    
    }
    .section5 button img{
     width: 30px;
